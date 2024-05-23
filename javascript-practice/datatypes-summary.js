@@ -17,9 +17,7 @@ console.log(typeof stateName)
 console.log(typeof id)
 console.log(typeof bigNumber)
 
-
 // Non Primitive data type
-
 // 1.Array
 let heros=["Akhilesh", "Prabhat", "Sunil"]; 
 
