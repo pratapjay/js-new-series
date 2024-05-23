@@ -38,3 +38,31 @@ console.log(heros,myObject,myFunction)
 console.log(typeof heros)
 console.log(typeof myObject)
 console.log(typeof myFunction)
+
+
+
+
+//++++++++++++++++++++++++++++++++++++++++++++========+++++++++++++++++++++++++++++++++++++++
+// 1.stack (Primitive), 2.Heap (Non-Primitive)
+
+
+//1.stack (Primitive) 
+let value="Jay"
+let Value1=value
+Value1="Pratap"
+
+console.log(value)
+console.log(Value1)  //Only this will make a copy of the value here.
+
+// 2.Heap (Non-Primitive)
+ 
+let userOne = {
+    email: "pratapjay694@gmail.com",
+    upi: "user@ypy",
+}
+
+let userTwo=userOne
+userTwo.email="Pratapjay697@gmail.com"
+userTwo.upi="user1@ypm"
+
+console.log(userOne, userTwo); // This will change the value (and other term we can say this will provide a Reference )
