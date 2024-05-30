@@ -38,3 +38,5 @@ JSUser.greeting2 = function(){
     console.log(`Hello World, ${this.email} `);
 }
 console.log(JSUser.greeting2());
+
+
